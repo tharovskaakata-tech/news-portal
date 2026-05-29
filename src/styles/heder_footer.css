@@ -28,7 +28,6 @@
     --dropdown-bg: #ffffff;
     --hover-bg: #f0f0f0;
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    --logo-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
 }
 
 /* Тёмная тема */
@@ -85,30 +84,15 @@ header {
 }
 
 /* Логотип */
+.logo-image {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo {
     display: flex;
-    flex-direction: column;
-    text-decoration: none;
-}
-
-.logo-symbol {
-    font-size: 42px;
-    font-weight: 900;
-    letter-spacing: -3px;
-    line-height: 1;
-    background: var(--logo-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.logo-text {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin-top: 4px;
-    color: var(--secondary-color);
-    text-transform: uppercase;
+    align-items: center;
 }
 
 /* Навигация */
@@ -349,19 +333,7 @@ footer {
     text-align: right;
 }
 
-.footer-about .logo {
-    margin-bottom: 20px;
-}
 
-.footer-about .logo-symbol {
-    -webkit-text-fill-color: white;
-    font-size: 36px;
-}
-
-.footer-about .logo-text {
-    color: var(--footer-text);
-    opacity: 0.8;
-}
 
 .footer-about p {
     font-size: 14px;

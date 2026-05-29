@@ -6,8 +6,7 @@ export default function Footer() {
       <div className="footer-main">
         <div className="footer-about footer-column">
           <a href="/" className="logo">
-            <span className="logo-symbol">NI</span>
-            <span className="logo-text">NEWS</span>
+            <img src="/images/13.png" alt="N NEWS Logo" className="logo-image" />
           </a>
           <p>Профессиональные новостные услуги.
             Актуальная информация со всего мира.</p>
@@ -28,7 +27,7 @@ export default function Footer() {
           <h5>Контакты</h5>
           <div className="contact-item">
             <strong>Телефон</strong>
-            <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+            <a href="tel:+74951234567">+7 (918) 123-45-67</a>
           </div>
           <div className="contact-item">
             <strong>Email</strong>
@@ -36,7 +35,7 @@ export default function Footer() {
           </div>
           <div className="contact-item">
             <strong>Адрес</strong>
-            г. Москва, ул. Профсоюзная, 15
+            г. Ростов-на-Дону, ул. Масима Горького 88 
           </div>
         </div>
       </div>

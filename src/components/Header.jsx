@@ -34,8 +34,7 @@ export default function Header() {
     <header>
       <div className="header-container">
         <Link to="/" className="logo">
-          <span className="logo-symbol">NI</span>
-          <span className="logo-text">NEWS</span>
+          <img src="/images/13.png" alt="N NEWS Logo" className="logo-image" />
         </Link>
         <div className="header-tools">
           <div className="search-wrapper">
